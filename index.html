@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab7 Simonov</title>
+    <title>Lab9 Simonov</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
     <body>
         <div class="content">
             <div class="calculator">
-                <input type="text" value="0" name="" id="output">
-                <input type="button" value="1" class="" id="1">
-                <input type="button" value="2" class="" id="2">
-                <input type="button" value="3" class="" id="3">
-                <input type="button" value="/" class="" id="divide">
-                <input type="button" value="C" class="" id="C">
-                <input type="button" value="4" class="" id="4">
-                <input type="button" value="5" class="" id="5">
-                <input type="button" value="6" class="" id="6">
-                <input type="button" value="*" class="" id="multiply">
+                <input type="text" value="" name="output" id="output">
+                <input type="button" value="7" class="" id="7" onclick="output.value += '7' ">
+                <input type="button" value="8" class="" id="8" onclick="output.value += '8' ">
+                <input type="button" value="9" class="" id="9" onclick="output.value += '9' ">
+                <input type="button" value="/" class="" id="divide" onclick="output.value += '/' ">
+                <input type="button" value="C" class="" id="C" onclick="output.value = '' ">
+                <input type="button" value="4" class="" id="4" onclick="output.value += '4' ">
+                <input type="button" value="5" class="" id="5" onclick="output.value += '5' ">
+                <input type="button" value="6" class="" id="6" onclick="output.value += '6' ">
+                <input type="button" value="*" class="" id="multiply" onclick="output.value += '*' ">
                 <input type="button" value="<-" class="" id="del">
-                <input type="button" value="1" class="" id="1">
-                <input type="button" value="2" class="" id="2">
-                <input type="button" value="3" class="" id="3">
-                <input type="button" value="-" class="" id="minus">
+                <input type="button" value="1" class="" id="1" onclick="output.value += '1' ">
+                <input type="button" value="2" class="" id="2" onclick="output.value += '2' ">
+                <input type="button" value="3" class="" id="3" onclick="output.value += '3' ">
+                <input type="button" value="-" class="" id="minus" onclick="output.value += '-' ">
                 <input type="button" value="=" class="" id="eq">
-                <input type="button" value="0" class="" id="zero">
-                <input type="button" value="." class="" id="point">
-                <input type="button" value="+" class="" id="plus">
+                <input type="button" value="0" class="" id="zero" onclick="output.value += '0' ">
+                <input type="button" value="." class="" id="point" onclick="output.value += '.' ">
+                <input type="button" value="+" class="" id="plus" onclick="output.value += '+' ">
             </div>
         </div>
     </body>
